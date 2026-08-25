@@ -113,23 +113,23 @@ def get_os_emoji(os_name):
 # ==================================================== BOT CONFIGURATION =====================================================
 
 # Discord Bot Settings
-DISCORD_TOKEN = 'BOT_TOKEN_HERE'  # Your bot token here
-BOT_NAME = 'BOT_NAME_HERE'  # Bot name
-PREFIX = 'BOT_PREFIX_HERE'  # Command prefix
+DISCORD_TOKEN = 'MTUzMDk5MTQ5MjczMzMzNzc5MA.GoNmKk.u08gnatRIeAaUOFK50Iqb9aY-QFSQHpnajRMHY'  # Your bot token here
+BOT_NAME = 'AlienNode'  # Bot name
+PREFIX = '&'  # Command prefix
 MAIN_ADMIN_IDS = [ #===== MAIN ADMINS ======
-                  '1340495739293274215',  
-                  '1166200288030502933'
+                  '1357350807204528180',  
+                  ''
                  ]
 # Role system removed - VPS user status tracked via database
 DEFAULT_STORAGE_POOL = 'default'  # LXC storage pool name
-YOUR_SERVER_IP = 'YOUR_SERVER_IP_HERE'  # Your server IP for port forwarding
-AUTO_SUSPENDED_VPS_DELETE_TIME = '7d' # Time after which suspended VPS will be automatically deleted (e.g., '7d' for 7 days, '12h' for 12 hours)
+YOUR_SERVER_IP = '127.0.0.1'  # Your server IP for port forwarding
+AUTO_SUSPENDED_VPS_DELETE_TIME = '3d' # Time after which suspended VPS will be automatically deleted (e.g., '7d' for 7 days, '12h' for 12 hours)
 AUTO_SUSPENDED_VPS_DELETE_WARN_TIME = '1h' # Time before deletion to warn users about their suspended VPS being deleted (e.g., '1h' for 1 hour, '30m' for 30 minutes)
-FREE_PLANS_MAX_VPS = '3'  # Max VPS allowed for free plans use 0 for unlimited
+FREE_PLANS_MAX_VPS = '2'  # Max VPS allowed for free plans use 0 for unlimited
 PAID_PLANS_MAX_VPS = '5'  # Max VPS allowed for paid plans use 0 for unlimited
 # Thumbnail URL (icon in top right and footer)
-THUMBNAIL_URL = "URL_HERE" # SET HERE THUMBNAIL 
-LOGGIN_CHANNEL = 0000000000 # Channel ID for logging important actions (suspensions, deletions, etc.)
+THUMBNAIL_URL = "https://cdn.discordapp.com/attachments/1409167460145434747/1531641218012942446/file_00000000fc6c823086b1782016854374.png?ex=6a8e34ca&is=6a8ce34a&hm=ab764b83768ed6ab69e15e0e351b3d0163bc471033277c8c0f93dccd624388e6&" # SET HERE THUMBNAIL 
+LOGGIN_CHANNEL = 1541783557213650954 # Channel ID for logging important actions (suspensions, deletions, etc.)
 TRACKING_CHANNEL = 0000000000 # Channel ID for tracking invite/boost activity
 
 # Free VPS Plans based on invites/boosts
